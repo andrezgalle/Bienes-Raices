@@ -1,0 +1,62 @@
+@media (max-width:768px) {
+    .barra{
+        flex-direction: column;
+    }
+
+    .navegacion a{
+        display: block;
+        text-align: center;
+    }
+
+    .contenido-header h1{
+        text-align: center;
+    }
+
+    .iconos-nosotros{
+        flex-direction: column;
+    }
+
+    .seccion{
+        padding: 2rem;
+    }
+
+    .imagen-contacto{
+        justify-content: center;
+    }
+
+    .contenedor{
+        margin: 0 auto;
+    }
+
+    .contenido-contacto{
+        padding: 3rem;
+    }
+
+    .seccion-inferior{
+        flex-direction: column;
+        padding: 2rem;
+    }
+
+    .contenedor-footer{
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .navegacion a{
+        margin-right: 0;
+    }
+
+    .boton-verde{
+        margin-top: 2rem;
+    }
+
+    form{
+        text-align: center;
+    }
+
+    .contenido-nosotros{
+        padding: 2rem;
+        grid-template-columns: auto;
+        text-align: center;
+    }
+}
